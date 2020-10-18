@@ -8,7 +8,7 @@ setup(
     version="0.0.1",
     author="SheiUn",
     author_email="develop@sheiun.me",
-    description="A third-party Python API for Plurk Dice Emojis",
+    description="A third-party Python API of Plurk Dice Emojis",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Plurk-Project/plurk-dice",
