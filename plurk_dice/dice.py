@@ -43,6 +43,15 @@ DICE = {
         7: "7cbe3526bf770399d9bed3e5217cc21f.png",
         8: "7b990c34dc8f63d90a06a67b8eaf56aa.png",
     },
+    "digit": {
+        0: "5d4b453d526bae111dd6f1cc5a8ff511.png",
+        1: "03cd4200ea60e40a8619d22832b8565b.png",
+        4: "2285e26f9a6267a73287077e75f426e5.png",
+        5: "4f2d6e246649f284d0828905bf27e9b2.png",
+        7: "32828c24085ea758139ed225458c7346.png",
+        8: "bc8815c9ac0694dfa16bd19f0a52e008.png",
+        9: "58d382c8ac312fb1471fc9ea586a961b.png",
+    },
     10: {  # BLUE
         1: "c7b659f9a40b3aab4467416bac70743f.png",
         2: "9693e838340f3214072694beb7f6666b.png",
