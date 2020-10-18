@@ -27,6 +27,19 @@ pip install plurk-dice
 ...
 ```
 
+## Support emojis
+
+- [x] ![dice4](https://s.plurk.com/a1fe8924e7dc4a4252b8e2c89fc729a4.png)
+- [x] ![dice](https://s.plurk.com/7c9a7af9caf0bcbadc74ec87400eb66d.png)
+- [ ] ~~(dice2)~~
+- [x] ![dice8](https://s.plurk.com/7b990c34dc8f63d90a06a67b8eaf56aa.png)
+- [x] ![digit](https://s.plurk.com/58d382c8ac312fb1471fc9ea586a961b.png)
+- [x] ![dice10](https://s.plurk.com/001b8fae9b328c7d36a9e7f69d8fa922.png)
+- [x] ![dice12](https://s.plurk.com/4694141aad1682240b2d3718beeccf67.png)
+- [x] ![dice20](https://s.plurk.com/22ecc6bed8b99c6a111d5dbc65dc08fd.png)
+- [x] ![bzz](https://s.plurk.com/129b757f2346a6e5ea782c79f0337ba9.png)
+- [x] ![lots](https://s.plurk.com/469ccf8828b6eb697bbc55b35ed84202.png)
+
 ## Run tests
 
 ```bash
