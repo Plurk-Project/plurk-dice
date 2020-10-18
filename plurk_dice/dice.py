@@ -7,10 +7,12 @@ import requests
 
 DOMAIN = "https://s.plurk.com/"
 
-DICE_NAME = {
+DICE_ALIAS = {
     "dice4": 4,
     "dice": 6,
     "dice8": 8,
+    "dice09": "digit",
+    "數字骰": "digit",
     "dice10": 10,
     "dice12": 12,
     "dice20": 20,
@@ -140,7 +142,7 @@ class Dice:
     @classmethod
     def parse(cls, text: str, **kwargs) -> List[Dict[str, Union[str, int]]]:
         results = re.findall(r"\((.*?)\)", text)
-        return [cls(DICE_NAME.get(r, r)).roll(**kwargs) for r in results]
+        return [cls(DICE_ALIAS.get(r, r)).roll(**kwargs) for r in results]
 
 
 def to_base64(url: str) -> str:
