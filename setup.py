@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="plurk-dice",
-    version="0.0.2",
+    version="0.0.3",
     author="SheiUn",
     author_email="develop@sheiun.me",
     description="A third-party Python API of Plurk Dice Emojis",
