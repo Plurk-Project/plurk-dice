@@ -18,6 +18,7 @@ DICE_ALIAS = {
     "dice20": 20,
     "draw": "lots",
     "lot": "lots",
+    "bz": "bzz",
     "bzzz": "bzz",
 }
 DICE = {
@@ -141,6 +142,15 @@ class Dice:
 
     @classmethod
     def parse(cls, text: str, **kwargs) -> List[Dict[str, Union[str, int]]]:
+        """Parse text like usage in Plurk.
+
+        Args:
+            text (str): Text input
+            kwargs: passed into `cls.roll()`
+
+        Returns:
+            List[Dict[str, Union[str, int]]]: All results from parsed dices.
+        """
         results = re.findall(r"\((.*?)\)", text)
         return [cls(DICE_ALIAS.get(r, r)).roll(**kwargs) for r in results]
 
